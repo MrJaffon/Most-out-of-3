@@ -1,5 +1,7 @@
 
+
 #include <stdio.h>
+
 
 
 int main(int argc, char *argv[])
@@ -13,12 +15,10 @@ int main(int argc, char *argv[])
 	int c;
 	printf ("c = ");
 	scanf ("%d",&c);
-	int m;
-	m = a;
-	if (b>m)
+	if (b>a)
 	{
-		b=m;
-		if (c>m)
+		
+		if (c>b)
 		{
 			printf ("c-naibolshee ");
 		}
