@@ -1,14 +1,12 @@
 
-
 #include <stdio.h>
-
 
 
 int main(int argc, char *argv[])
 {
 	int a;
 	printf ("a = ");
-	scanf ("%int",&a);
+	scanf ("%d",&a);
 	int b;
 	printf ("b = ");
 	scanf ("%d",&b);
